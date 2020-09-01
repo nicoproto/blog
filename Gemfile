@@ -28,6 +28,8 @@ gem 'turbolinks', '~> 5'
 
 # Added by me
 gem 'simple_form'
+gem 'dotenv-rails', groups: [:development, :test]
+
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
